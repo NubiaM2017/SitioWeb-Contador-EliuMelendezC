@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Servicios Contables - Eliú Meléndez Conejo</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f4; }
+    header { background-color: #003366; color: white; padding: 20px; text-align: center; }
+    section { margin: 20px 0; }
+    form { background-color: white; padding: 20px; border-radius: 8px; }
+    label { display: block; margin-top: 10px; }
+    input, select, textarea { width: 100%; padding: 8px; margin-top: 5px; }
+    button { margin-top: 15px; padding: 10px 20px; background-color: #003366; color: white; border: none; cursor: pointer; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Eliú Meléndez Conejo</h1>
+  <p>Contador Público Autorizado</p>
+</header>
+
+<section>
+  <h2>Servicios</h2>
+  <ul>
+    <li>Certificación de ingresos</li>
+    <li>Estudios de flujos de efectivo</li>
+    <li>Servicios contables</li>
+    <li>Implementación de CABYS</li>
+    <li>Revisión de estados financieros</li>
+    <li>Y más…</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Formulario de contacto</h2>
+  <form>
+    <label for="nombre">Nombre completo:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="servicio">Servicio requerido:</label>
+    <select id="servicio" name="servicio">
+      <option value="certificacion">Certificación de ingresos</option>
+      <option value="flujos">Estudios de flujos de efectivo</option>
+      <option value="contables">Servicios contables</option>
+      <option value="cabys">Implementación de CABYS</option>
+      <option value="revision">Revisión de estados financieros</option>
+    </select>
+
+    <label for="mensaje">Mensaje adicional:</label>
+    <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+
+    <!-- Aquí luego insertaremos el campo para subir archivos -->
+
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+
+</body>
+</html>
+
